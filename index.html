@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
 
+      <header>
+        <div class="container">
+          <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link active" href="#">Generatore di Password</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Trova Password Wi-Fi</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Prova Gratuita</a>
+            <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Premium Only</a>
+          </nav>
+        </div>
+      </header>
 
-    <h1 id="password"></h1>
+    <main>
+      <section class="pt-5 pb-5">
+        <div class="container">
+          <div class="jumbotron">
+            <div class="jumbotron-text col-12">
+              <h1 class="text-left display-3">Ciao!</h1>
+              <p> Questo è un esempio di come si possa creare un generatore di password sicuro ed efficace al 100%</p>
+            </div>
+              <div class="form-password col-12">
+                <form class="pt-4 pb-4">
+                  <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Cognome</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Colore Preferito</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="">
+                    <p class="display-5">
+                      Ecco la tua password: <span id="password"></span>
+                    </p>
+
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label" for="exampleCheck1">Clicca qui per donarmi il tuo stipendio</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Grazie, molto generoso</button>
+              </form>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+
 
 
 
